@@ -1,0 +1,145 @@
+/* Put your data in here and query it! */
+CREATE TABLE NASA( name TEXT, year INTEGER,  group_number INTEGER, status TEXT, birth_date INTEGER, birth_place TEXT, GENDER TEXT, college TEXT, undergard_major TEXT, grad_major TEXT);
+
+INSERT INTO NASA VALUES('Joseph Acaba', 2004, 19, 'Active', 05171967, 'Inglewood CA', 'Male', 'University of California-Santa Barbara University of Arizona', 'Geology', 'Geology');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES('Loren W. Acton',0, 0,'Retired',3071936,'Lewiston MT','Male','Montana State University_University of Colorado','Engineering Physics','Solar Physics');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES ('James C Adamson',1984, 10, 'Retired', 3031946, 'Warsaw_ NY', 'Male','US Military Academy_Princeton University', 'Engineering', 'Aerospace Engineering');
+
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES ('Thomas D Akers',
+1987,
+12,
+'Retired',
+5201951,
+'St Louis_MO',
+'Male',
+'University of Missouri-Rolla',
+'Applied Mathematics',
+'Applied Mathematics');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES ('Buzz Aldrin',
+1963,
+3,
+'Retired',
+1201930,
+'Montclair_NJ',
+'Male',
+'US Military Academy_MIT',
+'Mechanical Engineering',
+'Astronautics');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES ('Andrew M Allen',
+1987,
+12,
+'Retired',
+8041955,
+'Philadelphia_PA',
+'Male',
+'Villanova University_University of Florida',
+'Mechanical Engineering',
+'Business Administration');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES ('Joseph P Allen',
+1967,
+6,
+'Retired',
+6271937,
+'Crawsfordsville_IN',
+'Male', 
+'DePauw University_Yale University',
+'Mathematics & Physics',
+'Physics');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES ('Scott D Altman',
+1995,
+15,
+'Retired',
+8151959,
+'Lincoln_IL',
+'Male',
+'University of Illinois_US Naval Postgraduate School',
+'Aeronautical & Astronautical Engineering',
+'Aeronautical Engineering');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES ('William A. Anders',
+1963,
+3,
+'Retired',
+10171933,
+'Hong Kong',
+'Male',
+'US Naval Academy_Air Force Institute of Technology',
+'Nuclear Engineering',
+'Nuclear Engineering');
+SELECT * FROM NASA;
+
+INSERT INTO NASA VALUES('Jeffrey S. Ashby',
+1995,
+15,
+'Retired',
+0111954,
+'Dallas_TX',
+'Male',
+'University of Idaho_University of Tennessee',
+'Mechanical Engineering',
+'Aviation Systems');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES ('Serena M Aunon',
+2009,
+20,
+'Active',
+4091976,
+'Indianapolis_IN',
+'Female',
+'George Washington University_University of Texas',
+',Electrical Engineering',
+'Medicine');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES('James P Bagian',
+1980,
+9,
+'Retired',
+2221952,
+'Philadelphia_PA',
+'Male',
+'Drexel University_Thomas Jefferson University',
+'Mechanical Engineering',
+'Medicine');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES('Ellen S Baker',
+1984,
+10,
+'Retired',
+4271953,
+'Fayettesville_NC',
+'Female',
+'State University of New York-Buffalo_Cornell University_ University of Texas',
+'Geology',
+'Medicine_Public Health');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES('Michael A Baker',
+1985,
+11,
+'Management',
+1271953,
+'Memphis_TN',
+'Male',
+'University of Texas','NA',
+'Aerospace Engineering');
+SELECT * FROM NASA;
+INSERT INTO NASA VALUES('Michael R Barratt',
+2000,
+18,
+'Active',
+4161959,
+'Vancouver_WA',
+'Male',
+'University of Washington_Northwestern University_Wright State University',
+'Zoology',
+'Medicine_Aerospace Medicine');
+SELECT * FROM NASA;
+SELECT * FROM NASA ORDER BY Year asc;
+SELECT * FROM NASA WHERE (status='Active' OR status= 'Management');
+
